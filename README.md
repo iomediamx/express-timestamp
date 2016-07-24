@@ -10,9 +10,9 @@ $ npm install express-timestamp
 
 ## Usage
 ```javascript
-var express-timestamp = require('express-timestamp')
+var time = require('express-timestamp')
 
-app.use(express-timestamp.init())
+app.use(times.init)
 ```
 
 ## moment
@@ -22,12 +22,12 @@ express-timestamp creates a new moment when a new request is recived using [mome
 ## Examples
 
 ```javascript
-var express-timestamp = require('express-timestamp')
+var time = require('express-timestamp')
 
 var express = require('express')
 var app = express()
 
-app.use(express-timestamp.init())
+app.use(time.init)
 app.get('/', function (request, response) {
   console.log(request.timestamp)
   // logs moment
@@ -35,12 +35,12 @@ app.get('/', function (request, response) {
 ```
 
 ```javascript
-var express-timestamp = require('express-timestamp')
+var time = require('express-timestamp')
 
 var express = require('express')
 var app = express()
 
-app.use(express-timestamp.init())
+app.use(time.init())
 app.get('/', function (request, response) {
   var moment = request.timestamp
   console.log(moment.tz("America/Mexico_City").format();)
