@@ -12,7 +12,7 @@ $ npm install express-timestamp
 ```javascript
 var time = require('express-timestamp')
 
-app.use(times.init)
+app.use(time.init)
 ```
 
 ## moment
