@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Add timestamp to Express request",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iomediamx/express-timestamp.git"
+  },
   "scripts": {
     "test": "standard",
     "postpublish": "git push origin master"
