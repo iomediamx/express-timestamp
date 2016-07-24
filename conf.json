@@ -1,0 +1,15 @@
+{
+  "source": {
+    "include": ["./"],
+    "exclude": ["node_modules", "express-timestamp"],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "./",
+    "package": "./package.json",
+    "readme": "./README.md",
+    "recurse": true
+  }
+}

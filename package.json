@@ -1,0 +1,34 @@
+{
+  "name": "express-timestamp",
+  "version": "0.1.0",
+  "description": "Add timestamp to Express request",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "postpublish": "git push origin master"
+  },
+  "keywords": [
+    "express",
+    "moment",
+    "middleware",
+    "timestamp",
+    "datetime"
+  ],
+  "author": "io media, S.A. de C.V. (https://iomedia.mx)",
+  "license": "MIT",
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.4"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "standard": "^7.1.2"
+  },
+  "standard": {
+    "ignore": [
+      "express-timestamp/"
+    ]
+  }
+}
