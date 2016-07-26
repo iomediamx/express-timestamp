@@ -1,4 +1,4 @@
-# express-timestamp
+#s express-timestamp
 Add timestamp to Express request
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
@@ -40,11 +40,11 @@ var time = require('express-timestamp')
 var express = require('express')
 var app = express()
 
-app.use(time.init())
+app.use(time.init)
 app.get('/', function (request, response) {
   var moment = request.timestamp
   console.log(moment.tz("America/Mexico_City").format();)
-  // logs moment in YYYY-MM-DDTHH:MM:SS-05:00 format
+  // logs moment in YYYY-MM-DDThh:mm:ss-05:00 format
 })
 ```
 
