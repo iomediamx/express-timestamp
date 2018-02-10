@@ -20,9 +20,6 @@
   ],
   "author": "io media, S.A. de C.V. (https://iomedia.mx)",
   "license": "MIT",
-  "engines": {
-    "node": "^5.0.0"
-  },
   "dependencies": {
     "moment-timezone": "^0.5.4"
   },
